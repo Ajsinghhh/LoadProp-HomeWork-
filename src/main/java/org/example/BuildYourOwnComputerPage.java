@@ -3,7 +3,7 @@ package org.example;
 import org.openqa.selenium.By;
 
 //Class Name
-public class BuildYourOwnComputerPage extends Utils {
+public class BuildYourOwnComputerPage extends Utils  {
 
     //Method for Building Your Own Computer
     public void selectDetailsToBuildYourOwnComputer() {

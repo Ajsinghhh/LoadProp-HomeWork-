@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class LeicaTMirrorlessDigitalCameraPage extends Utils {
 
     //Method For Clicking on Email A Friend
-    public static void clickOnEmailAFriend() {
+    public void clickOnEmailAFriend() {
         clickOnElement(By.xpath("//button[normalize-space()='Email a friend']"));
     }
 

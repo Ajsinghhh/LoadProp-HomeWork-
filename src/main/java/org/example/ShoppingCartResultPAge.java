@@ -10,10 +10,11 @@ public class ShoppingCartResultPAge extends Utils {
     LoadProp loadProp = new LoadProp();
 
     //Message For Product In Shopping cart
-    String expectedMessageDisplayed = "Build your own computer ";
+
 
     //Method To verify Correct Message Displayed On Shopping Cart Page
     public void VerifyProductNameAndMessageDisplayedInShoppingCart() {
+        String expectedMessageDisplayed = "Build your own computer ";
         String actual = getTextFromElement(By.className("product-name"));
         Assert.assertEquals(getTextFromElement(By.className("product-name")), expectedMessageDisplayed, "Build your own computer ");
 

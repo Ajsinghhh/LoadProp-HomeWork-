@@ -23,7 +23,6 @@ public class BaseTest extends Utils {
             takeScreenShot(result.getName());
         }
         browserManager.closeBrowser();
-
     }
 
 

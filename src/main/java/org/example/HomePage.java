@@ -3,7 +3,7 @@ package org.example;
 import org.openqa.selenium.By;
 
 //Class Name
-public class HomePage extends Utils {
+public class HomePage extends Utils  {
 
     //Method For Clicking On Resister Button On HomePage
     public void clickOnRegisterButton() {

@@ -3,7 +3,7 @@ package org.example;
 import org.openqa.selenium.By;
 
 //Class Name
-public class LogInPage extends Utils {
+public class LogInPage extends Utils  {
 
     //Method for Login
     public void enterLoginDetails() {

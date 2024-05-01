@@ -11,7 +11,7 @@ public class LoadProp {
     static Properties prop;
 
     //Method For Get Property
-    public String getProperty(String Key) {
+    public String getProperty(String Key)  {
 
         prop = new Properties();
 

@@ -9,7 +9,7 @@ public class EmailAFriendPage extends Utils {
     static LoadProp loadProp = new LoadProp();
 
     //Method For Email A Friend
-    public static void enterEmailAFriendDetails() {
+    public void enterEmailAFriendDetails() {
 
         // Type Friends Email
         typeIn(By.id("FriendEmail"), friendsEmail);

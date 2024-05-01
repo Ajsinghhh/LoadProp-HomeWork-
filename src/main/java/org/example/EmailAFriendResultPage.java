@@ -12,7 +12,7 @@ public class EmailAFriendResultPage extends Utils {
     static String expectedEmailSentMessage = "Your email has been sent ";
 
     //Method For Verifying the Correct Message Displayed
-    public static void verifyEmailHasBeenSent() {
+    public void verifyEmailHasBeenSent() {
         Assert.assertEquals(getTextFromElement(By.className("result")), expectedEmailSentMessage, "Your email has been sent ");
 
         driver.get(loadProp.getProperty("expectedEmailSentMessage"));

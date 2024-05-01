@@ -3,7 +3,7 @@ package org.example;
 import org.openqa.selenium.By;
 
 //Class Name
-public class RegistrationPage extends Utils {
+public class RegistrationPage extends Utils  {
 
 
     //Object class for LoadProp

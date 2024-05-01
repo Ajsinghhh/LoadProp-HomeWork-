@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 import static java.lang.Math.random;
 
 //Class Name
-public class Utils extends BasePage {
+public class Utils extends BasePage  {
 
     //Store Password
     public static String password = "Singh1";

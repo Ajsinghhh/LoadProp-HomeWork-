@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 
 //Class Name
-public class RegistrationResultPage extends Utils {
+public class RegistrationResultPage extends Utils  {
 
 
     //Object class for LoadProp

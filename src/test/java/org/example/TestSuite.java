@@ -60,7 +60,6 @@ public class TestSuite extends BaseTest {
         registrationResultPage.verifyUserRegisteredSuccessfully();
     }
 
-
     @Test
     public void toVerifyRegisteredUserShouldBeAbleToLogin() {
 
@@ -121,15 +120,15 @@ public class TestSuite extends BaseTest {
         //Click On Electronics Button Located On Login Page
         homePage.clickOnElectronicButton();
         //Click On Camera & Photo Located On Electronic Page
-        ElectronicPage.clickOnCameraPhotoButton();
+        electronicPage.clickOnCameraPhotoButton();
         //Click Leica T Mirrorless Digital Camera Located On Camera & Photo Page
-        CameraAndPhotoPage.clickOnLeicaTMirrorlessDigitalCameraButton();
+        cameraAndPhotoPage.clickOnLeicaTMirrorlessDigitalCameraButton();
         //Click On Email A Friend Located On Leica T Mirrorless Digital Camera Page
-        LeicaTMirrorlessDigitalCameraPage.clickOnEmailAFriend();
+        leicaTMirrorlessDigitalCameraPage.clickOnEmailAFriend();
         //Enter Details For Email A Friend
-        EmailAFriendPage.enterEmailAFriendDetails();
+        emailAFriendPage.enterEmailAFriendDetails();
         //Verify Your Email Has Been Sent Message Displayed
-        EmailAFriendResultPage.verifyEmailHasBeenSent();
+        emailAFriendResultPage.verifyEmailHasBeenSent();
     }
 
 
